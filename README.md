@@ -5,7 +5,7 @@ This project builds a iOS Static Library that provides sip connection functional
 
 ## 1 - Adding to a Project
 
-#####a) Add pspip-ios as a submodule
+##### a) Add pspip-ios as a submodule
 # 
 
 Open terminal and navigate to your project's folder. Then use the command below to add pjsip-ios as a submodule and download it.
@@ -14,9 +14,9 @@ $ git submodule add __PROJECT_URL__
 ```
 Now use Finder to find the newly created /pjsip-ios folder inside your project's folder. Inside this folder there's a file called "pjsip-ios.xcodeproj". You need to drag it into your App's file tree inside XCode
 
-#####b) Add pjsip-ios.xcodeproj to your workspace
-#####c) Add pjsip-ios as a target depencency
-#####d) Add the following files to the "Link with Binary Libraries" section of "Build Phases"
+##### b) Add pjsip-ios.xcodeproj to your workspace
+##### c) Add pjsip-ios as a target depencency
+##### d) Add the following files to the "Link with Binary Libraries" section of "Build Phases"
 * libpjsip-ios.a
 * AudioToolbox.framework
 * AVFoundation.framework
